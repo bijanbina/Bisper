@@ -14,7 +14,7 @@
 #New-ItemProperty . FontSize -type DWORD -value 0x000a0000
 #New-ItemProperty . FontWeight -type DWORD -value 0x00000190
 
-$url = "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin?download=true"
+$url = "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en.bin?download=true"
 $outputFile = "models\ggml-base.en.bin"
 
 Import-Module BitsTransfer
